@@ -1,0 +1,5 @@
+services:
+ app:
+  container_name: python_logger
+  build: .
+  command: python3 server/logger_db.py

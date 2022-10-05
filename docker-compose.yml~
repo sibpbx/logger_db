@@ -1,0 +1,5 @@
+version: '1'
+    services:
+      server:
+        build: server/
+        command: python3 ./logger_db.py 
