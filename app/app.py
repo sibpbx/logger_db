@@ -12,7 +12,7 @@ logging.basicConfig(
     format="%(asctime)s — %(name)s — %(levelname)s — %(message)s",
 )
 # add db cridentials
-conn = psycopg.connect("dbname=test_db user=logger password=mWczmCRPzFtH")
+conn = psycopg.connect("dbname=test_db user=logger password=<PASS>")
 
 logger = logging.getLogger(__name__)
 
